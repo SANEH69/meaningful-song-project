@@ -3,7 +3,7 @@ body {
 }
 .container {
     background: linear-gradient(109.6deg, rgb(0, 0, 0) 11.2%, rgb(11, 132, 145) 91.1%);
-    margin: 5px 50px;
+    margin: 5px 50px 0px;
     padding: 90px 170px;
     color: white;
 }
@@ -33,6 +33,7 @@ h2 {
     font-family: monospace;
 }
 .reason {
-    background: linear-gradient(109.6deg, rgb(72, 200, 160) 11.2%, rgb(32, 40, 48) 91.3%);
+    background: #0B8491;
     color: black;
+    margin-top: 0px;
 }
