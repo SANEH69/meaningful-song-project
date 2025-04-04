@@ -37,3 +37,25 @@ h2 {
     color: black;
     margin-top: 0px;
 }
+.songs {
+    margin-top: 0px;
+}
+li {
+    margin-top: 10px;
+    font-size: 25px;
+}
+img {
+    width: 500px;
+    height: 400px;
+}
+.music {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+a {
+    color: grey;
+    text-decoration: none;
+}
+a:hover {
+    color: blueviolet;
+}
