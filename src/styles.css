@@ -33,8 +33,7 @@ h2 {
     font-family: monospace;
 }
 .reason {
-    background: #085C65;
-    color: black;
+    color: white;
     margin-top: 0px;
 }
 .songs {
@@ -59,4 +58,12 @@ a {
 }
 a:hover {
     color: blueviolet;
+}
+.credits {
+    margin-top: 0px;
+    padding: 50px 170px;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    font-family: monospace;
 }
