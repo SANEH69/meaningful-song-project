@@ -37,8 +37,19 @@ h2 {
     color: black;
     margin-top: 0px;
 }
+button {
+    display: block;
+    margin: auto;
+    padding: 10px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    background-color: #042D32;
+    color: aliceblue;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.9);
+}
 .songs {
     margin-top: 0px;
+    display: none;
 }
 li {
     margin-top: 10px;
