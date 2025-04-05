@@ -43,6 +43,10 @@ li {
     margin-top: 10px;
     font-size: 25px;
     font-family: monospace;
+    text-align: center;
+}
+ul {
+    list-style-type: none;
 }
 img {
     width: 500px;
@@ -67,22 +71,26 @@ a:hover {
     font-size: 20px;
     font-family: monospace;
 }
-@media (max-width: 900px) {
-    .container body {
-        width: 100%;
-        margin: 0px;
-        overflow-x: hidden;
-    }
-    .song-video .music {
+@media (max-width: 1500px) {
+    .song-video {
         grid: none;
+    }
+    body .container {
+        max-width: 100%;
+        overflow-x: hidden;
+        margin: 0px;
+        padding: 0px;
+        text-align: left;
     }
     iframe {
         width: 100%;
+        display: block;
+        margin: auto 0px;
+    }
+    h1 h2 {
+        font-size: 20px;
     }
     img {
         display: none;
-    }
-    ul {
-        text-align: center;
     }
 }
