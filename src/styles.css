@@ -43,6 +43,7 @@ h2 {
 li {
     margin-top: 10px;
     font-size: 25px;
+    font-family: monospace;
 }
 img {
     width: 500px;
